@@ -1,0 +1,31 @@
+:root {
+  --primary: hsl(61, 80%, 50%);
+  --link: hsl(72, 100%, 71%);
+  --info: hsl(52, 100%, 50%);
+  --success: hsl(120, 60%, 40%);
+  --warning: hsl(40, 100%, 50%);
+  --danger: hsl(0, 80%, 50%);
+}
+
+.button.is-primary {
+  background-color: var(--primary);
+  color: black;
+}
+
+.card {
+  background-color: #1a1a1a;
+  box-shadow: 0 0 5px var(--primary);
+  color: white;
+}
+
+.input {
+  border: 1px solid var(--primary);
+  box-shadow: 0 0 5px var(--primary); 
+  background-color: black;
+  color: white; 
+}
+
+.input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 8px var(--primary);
+}
