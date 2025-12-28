@@ -19,7 +19,7 @@ Per avviare correttamente il progetto:
 
 1. Clonare il repository:
     ```bash
-    git clone https://github.com/tuo-username/Fankee-FanMissions.git
+    git clone https://github.com/NathanMNZ02/Fankee-FanMissions.git
     cd Fankee-FanMissions
     ```
 
@@ -29,15 +29,11 @@ Per avviare correttamente il progetto:
     python -m venv env
     source env/bin/activate   # Windows: env\Scripts\activate
     pip install -r requirements.txt
+    python seed.py # Riempie il db con dati di test
     uvicorn main:app --reload
     ```
 
-3. Database seed:
-    ```bash
-    python seed.py
-    ```
-
-4. Frontend:
+3. Frontend:
     ```bash
     cd ../Fankee.Frontend
     npm install

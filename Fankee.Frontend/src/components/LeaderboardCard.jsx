@@ -28,8 +28,21 @@ function LeaderboardCard({ nickname }) {
 
     if(leaderboard.length === 0){
         return (
-            <div>
-                <p>Empty leaderboard</p>
+            <div className="level mb-3">
+                <div className="level-left"></div>
+                
+                <div className="level-item">
+                    <p>Empty leaderboard</p>
+                </div>
+                
+                <div className="level-right">
+                    <button 
+                        className="button" 
+                        onClick={loadLeaderboard} 
+                        style={{ border: "none", boxShadow: "none" }}>
+                            <FaSync color="white" />
+                    </button>
+                </div>
             </div>
         )
     }
