@@ -1,0 +1,8 @@
+Fankee.Frontend/node_modules
+Fankee.Frontend/dist
+
+Fankee.Backend/__pycache__/
+Fankee.Backend/env/
+Fankee.Backend/.venv/
+
+.DS_Store
