@@ -7,16 +7,11 @@ Il progetto nasce come challenge per la startup Fankee allo scopo di creare una 
 - Il fan può contrassegnare una missione come completata.
 - Una classifica mostra quali nickname hanno accumulato più punti.
   
----
-
 ## Struttura 
 
 Il progetto è strutturato in due parti:
 - Fankee.Backend: backend sviluppato in python + fastapi con database SQLite.
 - Fankee.Frontend: frontend sviluppato usando la libreria JavaScript React.
-
-
----
 
 ## Run
 
